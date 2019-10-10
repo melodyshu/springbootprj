@@ -1,0 +1,19 @@
+emp:
+  last-name: zhangsasn
+  age: 25
+  birthday: 1988/02/03
+  salary: 12000
+  boss: true
+
+  interest:
+    name: yoga
+    time: 5
+
+  map:
+    key1: value1
+    key2: value2
+
+  list:
+    - one
+    - two
+    - three
