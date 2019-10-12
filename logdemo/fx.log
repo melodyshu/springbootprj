@@ -1,0 +1,16 @@
+2019-10-12 21:44:42.878  INFO 12756 --- [main] n.f.springboot.LogdemoApplicationTests   : Starting LogdemoApplicationTests on lurenjia-PC with PID 12756 (started by Administrator in D:\springbootprj\logdemo)
+2019-10-12 21:44:42.882 DEBUG 12756 --- [main] n.f.springboot.LogdemoApplicationTests   : Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-10-12 21:44:42.885  INFO 12756 --- [main] n.f.springboot.LogdemoApplicationTests   : No active profile set, falling back to default profiles: default
+2019-10-12 21:44:42.955  INFO 12756 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5149d738: startup date [Sat Oct 12 21:44:42 CST 2019]; root of context hierarchy
+2019-10-12 21:44:45.610  INFO 12756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-12 21:44:46.053  INFO 12756 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5149d738: startup date [Sat Oct 12 21:44:42 CST 2019]; root of context hierarchy
+2019-10-12 21:44:46.206  INFO 12756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-12 21:44:46.208  INFO 12756 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-10-12 21:44:46.248  INFO 12756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-12 21:44:46.248  INFO 12756 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-12 21:44:46.553  INFO 12756 --- [main] n.f.springboot.LogdemoApplicationTests   : Started LogdemoApplicationTests in 4.326 seconds (JVM running for 5.868)
+2019-10-12 21:44:46.726 DEBUG 12756 --- [main] n.f.springboot.LogdemoApplicationTests   : debug...
+2019-10-12 21:44:46.727  INFO 12756 --- [main] n.f.springboot.LogdemoApplicationTests   : info...
+2019-10-12 21:44:46.727  WARN 12756 --- [main] n.f.springboot.LogdemoApplicationTests   : warn...
+2019-10-12 21:44:46.727 ERROR 12756 --- [main] n.f.springboot.LogdemoApplicationTests   : error...
+2019-10-12 21:44:46.736  INFO 12756 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5149d738: startup date [Sat Oct 12 21:44:42 CST 2019]; root of context hierarchy
