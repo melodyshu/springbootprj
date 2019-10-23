@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1px">
+    <tr>
+        <th>行号2</th>
+        <th>姓名</th>
+        <th>性别</th>
+    </tr>
+    <tr th:each="userx,abc : ${userList}">
+        <td th:text="${abc.count}">1</td>
+        <td th:text="${userx.username}">1111</td>
+        <td th:text="${userx.gender} == 1 ? '男' : '女' ">1111</td>
+    </tr>
+</table>
+<h2 th:if="not ${#lists.isEmpty(userList)}">userList不为空</h2>
+<div th:switch="${gender}">
+    <p th:case="1">男</p>
+    <p th:case="2">女</p>
+    <p th:case="*">未知</p>
+</div>
+<br/>
+<div th:object="${session.user}">
+    <p th:text="*{username}"></p>
+    <p th:text="*{gender}"></p>
+</div>
+</body>
+</html>

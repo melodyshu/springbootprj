@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>你好，thymeleaf模板!</h1>
+<hr/>
+<p th:text="${name}"></p>
+<div th:replace="header2 :: header_common"></div>
+<div th:insert="header2 :: header_common"></div>
+<div th:replace="header2 :: #header_common_id"></div>
+<div th:insert="header2 :: #header_common_id"></div>
+</body>
+</html>

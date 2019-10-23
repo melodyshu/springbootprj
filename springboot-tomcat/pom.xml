@@ -9,9 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>net.fxclass.springboot</groupId>
-    <artifactId>logdemo</artifactId>
+    <artifactId>springboot-tomcat</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>logdemo</name>
+    <packaging>war</packaging>
+    <name>springboot-tomcat</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -23,15 +24,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>jquery</artifactId>
-            <version>3.4.1</version>
         </dependency>
     </dependencies>
 
