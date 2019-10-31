@@ -13,4 +13,7 @@ public interface UserMapper {
     @Insert("insert into user(username,password) values(#{username},#{password})")
     int addUser(User user);
 
+    @Update("update user set username=#{username},real_name=#{realName} where id=#{id}")
+    int updateuser(User user);
+
 }
